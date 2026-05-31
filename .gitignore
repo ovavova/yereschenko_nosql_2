@@ -8,6 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+#vscode config <50mb open json
 .vscode/
 
 #enviroment variables, APIs
