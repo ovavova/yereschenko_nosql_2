@@ -4,8 +4,8 @@ import os
 import pandas as pd
 from tqdm import tqdm
 
-INPUT_FILE  = "../data/arxiv-metadata-oai-snapshot.json"
-OUTPUT_FILE = "../data/arxiv_subset.parquet"
+INPUT_FILE  = "data/arxiv-metadata-oai-snapshot.json"
+OUTPUT_FILE = "data/arxiv_subset.parquet"
 MAX_RECORDS = 20_000
 
 os.makedirs("data", exist_ok=True)
